@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #de8704;
+    color: #ced36f;
+}
+
+div{
+    width: 500px;
+    height: 600px;
+    background-color: #222536;
+    margin: 5px auto;
+    padding: 10px;
+}
+
+#sign{
+    color: #ffe034;
+    padding-left: 400px;
+    padding-top: 5px;
+    
+}
+
+table{
+    width: 100%;
+}
+
+input{
+    height: 20px;
+}
+
+table td{
+   padding-bottom: 18px;
+   
+}
+
+.apostasi{
+    padding-left: 30px;
+}
+
+#button1{
+    width: 65px;
+    height: 30px;
+    background-color: #58b95b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+#button2{
+    width: 65px;
+    height: 30px;
+    background-color: #d8544e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-left: 3px;
+}
+
+.platos{
+    width: 100%;
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+    padding-left: 10px;
+}
+
+#sel1{
+    width: 35%;
+    height: 30px;
+    padding-left: 15px;
+}
+
+#sel2{
+    width: 20%;
+    height: 30px;
+    padding-left: 15px;
+    margin-left: 18px;
+}
+
+#sel3{
+    width: 30%;
+    height: 30px;
+    padding-left: 15px;
+    margin-left: 18px;
+}
+
+#check{
+    background-color: #dbded7;
+    width: 4%;
+    margin-bottom: 10px;
+}
+
+.gender{
+    width: 4%;
+}
+
+#movebtn{
+   padding-left: 185px;
+}
+
+
+
+
+
+
+
+
