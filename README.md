@@ -13,6 +13,6 @@
 ![Παρουσίαση Εφαρμογής](advanced_form.gif)
 
 
-## Demo_Registration_advanced_form
+## Demo_Payment_form
 
 ![Παρουσίαση Εφαρμογής](payment_form.gif)
