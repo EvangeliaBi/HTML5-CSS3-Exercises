@@ -11,3 +11,8 @@
 ## Demo_Registration_advanced_form
 
 ![Παρουσίαση Εφαρμογής](advanced_form.gif)
+
+
+## Demo_Registration_advanced_form
+
+![Παρουσίαση Εφαρμογής](payment_form.gif)
