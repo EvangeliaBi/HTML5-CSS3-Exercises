@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Payment Form</title>
+</head>
+<body>
+    <h2>Payment Form</h2>
+    <p>Required fields are followed by *.</p>
+    <form>
+        <table>
+            <tr>
+                <td colspan="2">
+                    <h3>Contact Information</h3>
+                </td>
+            </tr>
+            <tr>
+                <td></td>   <!--Μέσα σε αυτή την γραμμή το πρώτο td (η πρώτη στήλη) είναι κενή, παρόλα αυτά πρέπει να την φτιάξω.-->
+                <td>   <!--Η διπλανή στήλη είναι αυτή που έχει το περίγραμμα το (fieldset).-->
+                    <fieldset>
+                        <legend>Title</legend>
+                        <label><input type="radio" name="fylo">Mister</label>
+                        <label><input type="radio" name="fylo">Miss</label>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+               <td>Name *</td>
+               <td><input type="text" required></td>
+            </tr>
+            <tr>
+                <td>Email *</td>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <td>Password *</td>
+                <td><input type="password"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <h3>Payment Information</h3>
+                </td>
+            </tr>
+            <tr>
+                <td>Card Type:</td>
+                <td>
+                    <select>
+                        <option>Mastercard</option>
+                        <option>Visa</option>
+                        <option>Maestro</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Card Number*</td>
+                <td><input type="text" required></td>
+            </tr>
+            <tr>
+                <td>Expiration date*</td>
+                <td><input type="text" required placeholder="ηη/μμ/εεεε"></td>
+            </tr>
+            <tr>
+                <th colspan="2"><input type="submit" value="Validate the payment"></th>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
